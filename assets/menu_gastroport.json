@@ -1,0 +1,2360 @@
+[
+  {
+    "id": 7155,
+    "name": "KAHVALTI",
+    "items": [
+      {
+        "name": "KAHVALTI TABAĞI",
+        "desc": "ezine peyniri,sepet peyniri,ege zeytin çeşitleri,ev yapımı çilek reçeli,domates,salatalık,bal,tereyağı,çırpılmış veya sahanda yumurta,ekşi maya ekmek",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 700
+          }
+        ]
+      },
+      {
+        "name": "SICAK KAHVALTI TABAĞI",
+        "desc": "frankfurter sosis,taze baharatlı krem patates,kızarmış peynir topları,ızgara kekikli domates,ekşi maya ekmek üzerinde çırpılmış veya sahanda yumurta",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 700
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5324,
+    "name": "SANDVİÇ",
+    "items": [
+      {
+        "name": "PEYNİR SANDVİÇ",
+        "desc": "pizza ekmeği,zeytin ezmesi,sepet peyniri,labne peyniri,roka,domates,salatalık",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 400
+          }
+        ]
+      },
+      {
+        "name": "HİNDİ FÜME SANDVİÇ",
+        "desc": "pizza ekmeği,hindi füme,yeşillikler,salatalık relish,cheddar sos",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 400
+          }
+        ]
+      },
+      {
+        "name": "SEZAR SANDVİÇ",
+        "desc": "pizza ekmeği,ızgara tavuk göğsü,sezar sos,parmesan peyniri,taze baharatlar",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 400
+          }
+        ]
+      },
+      {
+        "name": "ÇITIR TAVUK SANDVİÇ",
+        "desc": "pizza ekmeği,yeşillikler,salatalık relish,kırmızı soğan,acılı mayonez",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4634,
+    "name": "BAŞLANGIÇLAR",
+    "items": [
+      {
+        "name": "GÜNÜN ÇORBASI",
+        "desc": "",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/c24557c4-1c1f-4079-add2-7b319b2f5eac.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 220
+          }
+        ]
+      },
+      {
+        "name": "SADE PATATES KIZARTMASI",
+        "desc": "",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/c98ce328-09f9-4ccf-9010-8f5348f3edae.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 220
+          }
+        ]
+      },
+      {
+        "name": "CAJUN PATATES KIZARTMASI",
+        "desc": "",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/a5004a1b-79f9-4604-9333-635fffd693a3.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 260
+          }
+        ]
+      },
+      {
+        "name": "BON FRIES",
+        "desc": "patates kızartması, cheddar, taze baharatlar, hafif acılı mayonez",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/93d615f7-3026-460c-b9c0-e86aace59818.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 450
+          }
+        ]
+      },
+      {
+        "name": "KIZARMIŞ PEYNİR TOPLARI",
+        "desc": "taze peynir, trüf yağı, taze baharatlar, acılı turunç sos",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/9ea55bd6-1b29-422b-aa9c-b0f3238e17e5.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 460
+          }
+        ]
+      },
+      {
+        "name": "ÇITIR MAC &CHEESE TOPLARI",
+        "desc": "çıtır kaplamalı mac&cheese topları",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/867c9221-b6e9-4fcd-9799-60b802a11e3e.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 450
+          }
+        ]
+      },
+      {
+        "name": "ÇITIR TAVUK",
+        "desc": "tatlı-acı sos ile",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/b9d9984b-c405-45e2-803c-b05b515667fc.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 460
+          }
+        ]
+      },
+      {
+        "name": "ÇITIR TAVUK KANATLARI",
+        "desc": "çıtır kaplamalı tavuk kanatları, ponzu sos ve acı bon sos ile servis edilir.",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/ca53376c-4eec-410f-ada8-c1a550b1bc24.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 500
+          }
+        ]
+      },
+      {
+        "name": "ÇITIR TEPSİ MANTI",
+        "desc": "taze baharatlı yoğurt ve domates sos ile servis edilir.",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/0721ba9b-138f-4d54-aa98-23fc1a96c0b9.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 500
+          }
+        ]
+      },
+      {
+        "name": "BONION",
+        "desc": "çıtır soğan halkaları, acılı turunç sos ve acı bon sos ile servis edilir.",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/b5ccb09a-f7e6-4311-8fcd-f0a900b595c3.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 250
+          }
+        ]
+      },
+      {
+        "name": "SARIMSAKLI PİZZA EKMEĞİ",
+        "desc": "maydonoz, mozarella ve parmesan peyniri",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/43480481-61fc-41f9-9761-dc10b7fa04fa.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 210
+          }
+        ]
+      },
+      {
+        "name": "PATATES SALATASI",
+        "desc": "",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/9458134b-3ead-4ce6-a7b5-d33b1f7824f3.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 360
+          }
+        ]
+      },
+      {
+        "name": "TRUFF PARMESANLI PATATES KIZARTMASI",
+        "desc": "",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/bd13d3ae-cb3b-435e-915e-f03a1b6ce1df.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 360
+          }
+        ]
+      },
+      {
+        "name": "GÜNÜN ÇORBASI YARIM",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 140
+          }
+        ]
+      },
+      {
+        "name": "SADE PK YARIM",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 140
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4638,
+    "name": "SALATA",
+    "items": [
+      {
+        "name": "KEÇİ PANCAR SALATA",
+        "desc": "keçi peyniri, fırınlanmış pancar, roka , marul, file badem, hardal sos",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/00fe63bf-108e-4168-abba-f7313806ebc7.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 720
+          }
+        ]
+      },
+      {
+        "name": "IZGARA TAVUK SALATA",
+        "desc": "ızgara tavuk, cherry domates, salatalık, kırmızı soğan,mısır roka, marul",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/7a2d6db7-bce7-4ab8-9f51-62144b1a5395.jpeg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 750
+          }
+        ]
+      },
+      {
+        "name": "SEZAR SALATA",
+        "desc": "ızgara tavuk, marul, kruton, sezar sos, parmesan, taze baharatlar",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/7e345ea1-0e8e-48cd-9b1a-705fbb3c14a3.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 800
+          }
+        ]
+      },
+      {
+        "name": "ANRİCOTTO SALATA",
+        "desc": "dana füme antrikot, roka, göbek marul, cherry domates, salatalık, ceviz, çıtır soğan, kekikli balsamic sos",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/94e412cd-b7fb-490a-a389-cb346232c677.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 950
+          }
+        ]
+      },
+      {
+        "name": "BARIŞ SALATA",
+        "desc": "ızgara dana köfte, roka, göbek marul, cherry domates, salatalık, közlenmiş biber, közlenmiş domates",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/12971c9e-9303-48fc-b7e3-3eb157f49e1a.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 900
+          }
+        ]
+      },
+      {
+        "name": "ÇITIR TAVUK SALATA",
+        "desc": "göbek marul, domates, mısır, kırmızı soğan, turşu, çıtır tavuk, acılı mayonez",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/0e50b211-3f52-4e1f-b68f-4105a26b457a.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 760
+          }
+        ]
+      },
+      {
+        "name": "HUMUSLU TAHIL SALATASI",
+        "desc": "akdeniz yeşillikleri, buğday, yeşil mercimek, nohut, maş fasulyesi, mısır, renkli biberler, salatalık, kırmızı soğan, baharatlı limon sosu",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/363d2110-86dd-40ad-b2d0-f379649d734d.jpeg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 840
+          }
+        ]
+      },
+      {
+        "name": "HUMUSLU TAHIL SALATASI KÖFTELİ",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 1050
+          }
+        ]
+      },
+      {
+        "name": "HUMUSLU TAHIL SALATASI TAVUKLU",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 950
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4635,
+    "name": "BON MUTFAK",
+    "items": [
+      {
+        "name": "TRÜFF BURGER",
+        "desc": "140 gr. burger köftesi, cheddar, karamelize soğan, salatalık relish, trüflü mayonez",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/3173cbd4-1768-4dc3-afff-839c0986466a.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 600
+          }
+        ]
+      },
+      {
+        "name": "BON BURGER",
+        "desc": "140 gr. burger köftesi, cheddar, karamelize soğan, dana cotto, bon sos",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/61b42e76-ab07-4b00-a369-00b4906647c8.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 600
+          }
+        ]
+      },
+      {
+        "name": "AMG BURGER",
+        "desc": "140 gr. burger köftesi, cheddar, turşu, kırmızı soğan, domates, marul, ketçap, hardal",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/5550913f-bc90-4c04-b9e9-ed114782f474.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 600
+          }
+        ]
+      },
+      {
+        "name": "CHEESE BURGER",
+        "desc": "140 gr. burger köftesi, cheddar",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/9b511916-b25c-4728-b755-234468f978d5.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 520
+          }
+        ]
+      },
+      {
+        "name": "ECE BURGER",
+        "desc": "120 gr. çıtır tavuk göğüs, cheddar, turşu, kırmızı soğan, göbek marul, trüflü mayonez veya acılı mayonez",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/86a01855-3206-4807-b536-0b1eb8de4a6a.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 650
+          }
+        ]
+      },
+      {
+        "name": "EMRE BURGER",
+        "desc": "140 gr. burger köftesi, cheddar, karamelize soğan, dana cotto, bon sos, trüflü mayonez",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/1202ebd7-1720-4634-adbd-6ab856b88288.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 650
+          }
+        ]
+      },
+      {
+        "name": "VEGABON BURGER",
+        "desc": "falafel, domates, avokado, kırmızı soğan, göbek marul, turşu, tatlı-acı sos",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/a50f9d3a-921a-4c33-bb4a-ed0c946bed81.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 600
+          }
+        ]
+      },
+      {
+        "name": "KÖFTE WRAP",
+        "desc": "140 gr. dana kıyma, tatlı-acı sos, cheddar, kimyon, domates, marul, turşu, kırmızı soğan, acı mayonez",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/0125f677-a1ea-4065-8920-4d1bf669b80e.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 750
+          }
+        ]
+      },
+      {
+        "name": "TAVUK WRAP",
+        "desc": "150 gr. ızgara tavuk, tatlı-acı sos, cheddar, domates, marul, turşu, kıtır soğan, acı mayonez",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/dc1874c5-9a42-4d72-97e3-c9abc0189ec5.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 750
+          }
+        ]
+      },
+      {
+        "name": "ÇITIR TAVUKLU WRAP",
+        "desc": "150 gr. çıtır tavuk göğüs, tatlı-acı sos, cheddar, domates, marul, turşu, kıtır soğan, acı mayonez",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/3d23f9b3-6c96-4683-9358-dea5aea94175.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 750
+          }
+        ]
+      },
+      {
+        "name": "FALAFEL WRAP",
+        "desc": "falafel, tatlı-acı sos, domates, marul, turşu, kırmızı soğan, acı mayonez",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/554530ec-4eaa-4868-9337-53eb91492276.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 750
+          }
+        ]
+      },
+      {
+        "name": "HOT DOG",
+        "desc": "dana sosis, salatalık relish, cheddar, ketçap, hardal, taze baharatlar, bon sos",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/e1404e0a-e3d3-478a-8733-e11eb66af416.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 650
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4637,
+    "name": "PİZZA",
+    "items": [
+      {
+        "name": "PİZZA BBQ TAVUK",
+        "desc": "domates sos, mozarella, tavuk göğüs, çarliston biber, kırmızı soğan, BBQ sos",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/631732f7-7498-4440-b21d-1c7e818e8920.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 900
+          }
+        ]
+      },
+      {
+        "name": "PİZZA SOSİSLİ",
+        "desc": "domates sos, mozarella, füme dana sosis, kırmızı soğan, kültür mantarı",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/6e207ed8-f2a8-4eea-b9dc-18830b4d5b8e.jpeg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 900
+          }
+        ]
+      },
+      {
+        "name": "PİZZA MARGARİTA",
+        "desc": "domates sos, mozarella,",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/9b859225-3285-4da9-979a-860294d67702.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 720
+          }
+        ]
+      },
+      {
+        "name": "PİZZA ANTRİCOTTO",
+        "desc": "domates sos, mozarella, dana cotto, roka",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/f4514c5a-6aab-417e-91cc-0c0e49e83b3f.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 980
+          }
+        ]
+      },
+      {
+        "name": "PİZZA BON",
+        "desc": "domates sos, mozarella, pastırma, roka",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/d0b45047-eae6-4ac7-8762-5288d4ad9603.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 980
+          }
+        ]
+      },
+      {
+        "name": "PİZZA KAVURMA",
+        "desc": "dana kavurma, mozarella, köy biberi,krema",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/9fff5669-8fd6-4410-b21d-14d0b740c082.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 940
+          }
+        ]
+      },
+      {
+        "name": "PİZZA FUNGHI",
+        "desc": "domates sos, mozarella, kültür mantarı, istiridye mantarı, trüf yağ",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/f4ba962a-6b4f-4bdc-b372-388dbef19e96.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 900
+          }
+        ]
+      },
+      {
+        "name": "PİZZA PEPPERONİ",
+        "desc": "domates sos, mozarella, pepperoni, çarliston biber, kırmızı soğan",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/80911353-2cd1-4f97-86a1-06af5356b042.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 940
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4636,
+    "name": "ANA YEMEK",
+    "items": [
+      {
+        "name": "IZGARA KÖFTE",
+        "desc": "180 gr. ızgara köfte, patates salatası, ekmek",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/7dbbb04a-fc1e-4963-b6c1-b5009ab2609c.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 900
+          }
+        ]
+      },
+      {
+        "name": "IZGARA KÖFTE PATATES KIZARTMASI",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 900
+          }
+        ]
+      },
+      {
+        "name": "TAVUK ŞNİTZEL",
+        "desc": "patates salatası, roka salatası, taze baharatlı yağ, limon",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/e01f593d-a61d-4148-9d22-cc9c77ec6584.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 900
+          }
+        ]
+      },
+      {
+        "name": "TAVUK ŞNİTZEL PATATES KIZARTMALI",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 900
+          }
+        ]
+      },
+      {
+        "name": "CAFE DE PARIS SOSLU TAVUK",
+        "desc": "parmesanlı patates ile",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/83c7400e-2969-4ee8-95be-97366775cf57.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 900
+          }
+        ]
+      },
+      {
+        "name": "IZGARA TAVUK GÖĞÜS",
+        "desc": "ızgara tavuk, patates salatası, ekmek",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/ff276dab-d680-41b0-829f-dc087dedab34.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 840
+          }
+        ]
+      },
+      {
+        "name": "LAZANYA",
+        "desc": "bolonez, beşamel sos, domates sos, mozarella, taze fesleğen",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/fb7e57c7-65b8-449a-a2f2-fae8c86674a1.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 750
+          }
+        ]
+      },
+      {
+        "name": "IZGARA SOSİS",
+        "desc": "2 adet 90 gr. ızgara sosis, Çubuk Turşusu, patates salatası, ekmek",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/0bf8bae7-0349-4c58-b725-cc7a86e40dca.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 960
+          }
+        ]
+      },
+      {
+        "name": "PENNE ARABIATA",
+        "desc": "acılı / acısız, fesleğen ve toz parmesan",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/0420432b-542a-49c6-9fec-f087ea02ebc5.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 700
+          }
+        ]
+      },
+      {
+        "name": "FETTUCINE ALFREDO",
+        "desc": "mantar, tavuk, krema sos, fesleğen, toz parmesan",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/29f9c237-896f-4d28-b382-2436b62010eb.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 800
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4639,
+    "name": "BON PASTANE",
+    "items": [
+      {
+        "name": "PROFITEROL",
+        "desc": "",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/06e6bbdb-d4ae-40ba-865d-ad1539bfa5f7.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 440
+          }
+        ]
+      },
+      {
+        "name": "DONDURMALI PROFITEROL",
+        "desc": "",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/5d703eeb-271d-4efb-bfce-73a137e08953.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 540
+          }
+        ]
+      },
+      {
+        "name": "ISABELLE",
+        "desc": "vanilyalı dondurma, çikolatalı kurabiye, çilek, çikolata sos, file badem, karamel sos",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/b4f938fb-35c9-4b24-b9a1-8a4c1fd9698f.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 540
+          }
+        ]
+      },
+      {
+        "name": "CREME BRULEE",
+        "desc": "",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/06f75d42-d359-480b-9597-571a68898ab5.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 440
+          }
+        ]
+      },
+      {
+        "name": "BROWNI",
+        "desc": "beyaz çikolata, vişne",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/c2371649-d791-4fc0-b710-766be6f5cb70.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 360
+          }
+        ]
+      },
+      {
+        "name": "ÇİKOLATALI SUFFLE",
+        "desc": "vanilyalı dondurma ile servis edilir.",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/404b86a7-f083-4058-aca8-c801c36ec16f.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 450
+          }
+        ]
+      },
+      {
+        "name": "TİRAMİSU",
+        "desc": "",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/f550c7e8-b44f-4773-9de1-1a9953e9e3cc.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 450
+          }
+        ]
+      },
+      {
+        "name": "KREP",
+        "desc": "sütlü çikolata, muz, çilek, file badem",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/a14b379d-6914-4517-932b-6107ff98a425.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 550
+          }
+        ]
+      },
+      {
+        "name": "ÇİKOLATALI CHIP COOKIE",
+        "desc": "",
+        "img": "https://files.cdn.elektraweb.com/bdcac343/36056/images/1e336e04-f570-41b4-b585-888b38ac67bd.jpg",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 220
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4641,
+    "name": "ÇAY",
+    "items": [
+      {
+        "name": "DEMLEME ÇAY",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 90
+          }
+        ]
+      },
+      {
+        "name": "FİNCAN ÇAY",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 120
+          }
+        ]
+      },
+      {
+        "name": "NANE - LİMON ÇAYI",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "KIŞ ÇAYI",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "YEŞİL ÇAY",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "YASEMİNLİ YEŞİL ÇAY",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "KUŞBURNU",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "ELMA TARÇIN ÇAYI",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "ADA ÇAYI",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "IHLAMUR",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "ORMAN MEYVELİ ÇAY",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "MELİSA ÇAYI",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "REZENE ÇAYI",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4642,
+    "name": "KAHVE",
+    "items": [
+      {
+        "name": "ESPRESSO",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 150
+          }
+        ]
+      },
+      {
+        "name": "ESPRESSO DOUBLE",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "AMERİCANO",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "CAPPUCİNO",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 220
+          }
+        ]
+      },
+      {
+        "name": "CAFFE LATTE",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 220
+          }
+        ]
+      },
+      {
+        "name": "FLAT WHITE",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 240
+          }
+        ]
+      },
+      {
+        "name": "FİLTRE KAHVE",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "CAFFE MOCHA",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 240
+          }
+        ]
+      },
+      {
+        "name": "CARAMEL LATTE",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 250
+          }
+        ]
+      },
+      {
+        "name": "TÜRK KAHVESİ",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 140
+          }
+        ]
+      },
+      {
+        "name": "TÜRK KAHVESİ DOUBLE",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 220
+          }
+        ]
+      },
+      {
+        "name": "ICE AMERİCANO",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 240
+          }
+        ]
+      },
+      {
+        "name": "ICE LATTE",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 250
+          }
+        ]
+      },
+      {
+        "name": "İCE MOCHA",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 250
+          }
+        ]
+      },
+      {
+        "name": "İCE CARAMEL LATTE",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 250
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4640,
+    "name": "SOFT İÇECEK",
+    "items": [
+      {
+        "name": "SU",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 80
+          }
+        ]
+      },
+      {
+        "name": "BÜYÜK SU",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 140
+          }
+        ]
+      },
+      {
+        "name": "CHURCHILL",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 160
+          }
+        ]
+      },
+      {
+        "name": "SODA",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 100
+          }
+        ]
+      },
+      {
+        "name": "COCA-COLA",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 120
+          }
+        ]
+      },
+      {
+        "name": "COCA-COLA LİGHT",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 120
+          }
+        ]
+      },
+      {
+        "name": "COCA-COLA ZERO SUGAR",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 120
+          }
+        ]
+      },
+      {
+        "name": "FANTA",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 120
+          }
+        ]
+      },
+      {
+        "name": "SPRITE",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 120
+          }
+        ]
+      },
+      {
+        "name": "AYRAN",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 120
+          }
+        ]
+      },
+      {
+        "name": "FESLEĞENLİ AYRAN",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 220
+          }
+        ]
+      },
+      {
+        "name": "NANELİ AYRAN",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 220
+          }
+        ]
+      },
+      {
+        "name": "EL YAPIMI LİMONATA",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "NANELİ LİMONATA",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 220
+          }
+        ]
+      },
+      {
+        "name": "ÇİLEKLİ LİMONATA",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 240
+          }
+        ]
+      },
+      {
+        "name": "REYHAN ŞERBETİ",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 240
+          }
+        ]
+      },
+      {
+        "name": "MİLKSHAKE ÇİKOLATA",
+        "desc": "çilek/çikolata/vanilya",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 250
+          }
+        ]
+      },
+      {
+        "name": "MİLKSHAKE VANİLYA",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 250
+          }
+        ]
+      },
+      {
+        "name": "MİLKSHAKE ÇİLEKLİ",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 250
+          }
+        ]
+      },
+      {
+        "name": "PORTAKAL SUYU",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 300
+          }
+        ]
+      },
+      {
+        "name": "FUSE TEA ŞEFTALİ",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 120
+          }
+        ]
+      },
+      {
+        "name": "FUSE TEA LİMON",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 120
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4643,
+    "name": "BİRA",
+    "items": [
+      {
+        "name": "EFES PİLSEN 50CL",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 290
+          }
+        ]
+      },
+      {
+        "name": "EFES MALT 50CL",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 290
+          }
+        ]
+      },
+      {
+        "name": "EFES PİLSEN GREEN 50CL",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 290
+          }
+        ]
+      },
+      {
+        "name": "EFES GLUTENSİZ 50CL",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 300
+          }
+        ]
+      },
+      {
+        "name": "BOMONTİ FİLTRESİZ 50CL",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 290
+          }
+        ]
+      },
+      {
+        "name": "MILLER 33CL",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 300
+          }
+        ]
+      },
+      {
+        "name": "STELLA ARTOIS 44CL",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 320
+          }
+        ]
+      },
+      {
+        "name": "BECKS 50CL",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 290
+          }
+        ]
+      },
+      {
+        "name": "CORONA 33CL",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 300
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5347,
+    "name": "KIRMIZI ŞARAPLAR",
+    "items": [
+      {
+        "name": "Suvla Karasakız 2022",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 1650
+          }
+        ]
+      },
+      {
+        "name": "Suvla Merlot Barrel Aged 2021",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 3150
+          }
+        ]
+      },
+      {
+        "name": "Suvla Kabatepe Kırmızı 37.5 cl 2021",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 900
+          }
+        ]
+      },
+      {
+        "name": "Suvla Sur 2020",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 3700
+          }
+        ]
+      },
+      {
+        "name": "Suvla Sır 2020",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 4015
+          }
+        ]
+      },
+      {
+        "name": "Suvla Kirte 2020",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 3400
+          }
+        ]
+      },
+      {
+        "name": "Porta Diverti Kırmızı 2023",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 1600
+          }
+        ]
+      },
+      {
+        "name": "Ament Blend 2022",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 4800
+          }
+        ]
+      },
+      {
+        "name": "Etruscan ASHK 2018",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 3100
+          }
+        ]
+      },
+      {
+        "name": "Etruscan Gradıva 2019",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 1300
+          }
+        ]
+      },
+      {
+        "name": "Etruscan XHAI 2018 Reserva",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 4100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7116,
+    "name": "ROSE/BLUSH ŞARAPLAR",
+    "items": [
+      {
+        "name": "Suvla Blush Karasakız 2022",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 2100
+          }
+        ]
+      },
+      {
+        "name": "Suvla Clairet 2022",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 1850
+          }
+        ]
+      },
+      {
+        "name": "Suvla Kabatepe Blush 37,5 cl 2022",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 900
+          }
+        ]
+      },
+      {
+        "name": "Felici Rose 2022",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 3100
+          }
+        ]
+      },
+      {
+        "name": "Felici Rose Barrel Aged 2024",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 3950
+          }
+        ]
+      },
+      {
+        "name": "Porta Diverti Rose 2023",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 1850
+          }
+        ]
+      },
+      {
+        "name": "Etruscan Daydream 2021 Rose",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 1250
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7117,
+    "name": "BEYAZ ŞARAPLAR",
+    "items": [
+      {
+        "name": "Kınalı Yapıncak 2022",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 1850
+          }
+        ]
+      },
+      {
+        "name": "Misket Narince 2022",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 1900
+          }
+        ]
+      },
+      {
+        "name": "Suvla Kabatepe Beyaz 37,5 cl 2022",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 900
+          }
+        ]
+      },
+      {
+        "name": "Pacem 2022",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 3500
+          }
+        ]
+      },
+      {
+        "name": "Porta Diverti Blend 2025",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 1950
+          }
+        ]
+      },
+      {
+        "name": "Pacem Barrel Aged 2024",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 4100
+          }
+        ]
+      },
+      {
+        "name": "Etruscan INO 2022",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 1850
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7118,
+    "name": "KADEH ŞARAPLAR",
+    "items": [
+      {
+        "name": "Suvla Karasakız",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 400
+          }
+        ]
+      },
+      {
+        "name": "Suvla Kabatepe Kırmızı",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 400
+          }
+        ]
+      },
+      {
+        "name": "Suvla Kirte",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 750
+          }
+        ]
+      },
+      {
+        "name": "Porta Diverti Kırmızı",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 400
+          }
+        ]
+      },
+      {
+        "name": "Etruscan Gradiva",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 400
+          }
+        ]
+      },
+      {
+        "name": "Suvla Blush Karasakız",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 450
+          }
+        ]
+      },
+      {
+        "name": "Suvla Clairet",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 450
+          }
+        ]
+      },
+      {
+        "name": "Suvla Kabatepe Blush",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 400
+          }
+        ]
+      },
+      {
+        "name": "Porta Diverti Rose",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 400
+          }
+        ]
+      },
+      {
+        "name": "Etruscan Daydream",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 350
+          }
+        ]
+      },
+      {
+        "name": "Suvla Kınalı Yapıncak",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 400
+          }
+        ]
+      },
+      {
+        "name": "Suvla Misket Narince",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 400
+          }
+        ]
+      },
+      {
+        "name": "Suvla Kabatepe Beyaz",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 400
+          }
+        ]
+      },
+      {
+        "name": "Porta Diverti Beyaz",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 400
+          }
+        ]
+      },
+      {
+        "name": "Etruscan INO",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 400
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7128,
+    "name": "EKSTRALAR",
+    "items": [
+      {
+        "name": "TAZE KEÇİ PEYNİRİ",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 150
+          }
+        ]
+      },
+      {
+        "name": "BURGER KÖFTE 70 GR",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 200
+          }
+        ]
+      },
+      {
+        "name": "IZGARA TAVUK 120 GR",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 165
+          }
+        ]
+      },
+      {
+        "name": "TATLI ACI SOS",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 150
+          }
+        ]
+      },
+      {
+        "name": "TRÜFLÜ MAYONEZ",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 180
+          }
+        ]
+      },
+      {
+        "name": "CHEDDAR SOS",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 130
+          }
+        ]
+      },
+      {
+        "name": "PARMESAN",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 90
+          }
+        ]
+      },
+      {
+        "name": "TRÜF YAĞ",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 125
+          }
+        ]
+      },
+      {
+        "name": "ACI SOS",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 130
+          }
+        ]
+      },
+      {
+        "name": "BBQ SOS",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 70
+          }
+        ]
+      },
+      {
+        "name": "ÇİKOLATA SOS",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 120
+          }
+        ]
+      },
+      {
+        "name": "IZGARA SOSİS 90 GR",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 350
+          }
+        ]
+      },
+      {
+        "name": "ACILI TURUNÇ SOS",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 150
+          }
+        ]
+      },
+      {
+        "name": "BON SOS",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 150
+          }
+        ]
+      },
+      {
+        "name": "ACILI MAYONEZ",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 150
+          }
+        ]
+      },
+      {
+        "name": "CHEDDAR PEYNİRİ",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 90
+          }
+        ]
+      },
+      {
+        "name": "SOYA SOS",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 130
+          }
+        ]
+      },
+      {
+        "name": "YOĞURT SOS",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 110
+          }
+        ]
+      },
+      {
+        "name": "HARDAL",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 70
+          }
+        ]
+      },
+      {
+        "name": "DONDURMA",
+        "desc": "",
+        "img": "",
+        "veg": false,
+        "prices": [
+          {
+            "name": "Default Size",
+            "price": 90
+          }
+        ]
+      }
+    ]
+  }
+]

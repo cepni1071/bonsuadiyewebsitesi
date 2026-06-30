@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class="scroll-smooth light" lang="tr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bon Suadiye — Bir Ruh, İki Mekan</title>
+<meta name="description" content="Bon Suadiye — İstanbul Suadiye ve Çanakkale Gastroport'ta rafine lezzetler, özenle seçilmiş kahveler ve sanat dolu bir atmosfer."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script src="assets/config.js"></script>
+<link rel="stylesheet" href="assets/styles.css"/>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container">
+
+<!-- ===== Top Nav ===== -->
+<header class="sticky top-0 z-50 border-b border-outline-variant bg-background/95 backdrop-blur">
+<nav class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-7xl mx-auto">
+<a class="text-headline-md font-headline-md text-primary tracking-wider uppercase" href="index.html">Bon Suadiye</a>
+<div class="hidden md:flex gap-gutter items-center">
+<a class="text-primary border-b-2 border-primary font-bold pb-1 text-label-sm font-label-sm uppercase tracking-wider" href="index.html">Ana Sayfa</a>
+<a class="text-secondary hover:text-primary text-label-sm font-label-sm uppercase tracking-wider transition-colors" href="hakkimizda.html">Hakkımızda</a>
+<a class="text-secondary hover:text-primary text-label-sm font-label-sm uppercase tracking-wider transition-colors" href="lokasyonlar.html">Lokasyonlar</a>
+<a class="text-secondary hover:text-primary text-label-sm font-label-sm uppercase tracking-wider transition-colors" href="iletisim.html">İletişim</a>
+</div>
+<a href="rezervasyon.html" class="bg-primary text-on-primary px-6 py-3 rounded hover:bg-primary-container transition-colors duration-300 text-label-sm font-label-sm uppercase tracking-wider hidden md:inline-block">Rezervasyon Yap</a>
+<button data-menu-toggle class="md:hidden text-primary p-2" aria-label="Menü">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</nav>
+<!-- Mobil menü -->
+<div data-mobile-menu class="mobile-menu md:hidden bg-background border-t border-outline-variant px-margin-mobile">
+<div class="flex flex-col py-4 gap-4">
+<a class="text-primary font-bold text-label-sm uppercase tracking-wider" href="index.html">Ana Sayfa</a>
+<a class="text-secondary text-label-sm uppercase tracking-wider" href="hakkimizda.html">Hakkımızda</a>
+<a class="text-secondary text-label-sm uppercase tracking-wider" href="lokasyonlar.html">Lokasyonlar</a>
+<a class="text-secondary text-label-sm uppercase tracking-wider" href="iletisim.html">İletişim</a>
+<a class="bg-primary text-on-primary px-6 py-3 rounded text-center text-label-sm uppercase tracking-wider" href="rezervasyon.html">Rezervasyon Yap</a>
+</div>
+</div>
+</header>
+
+<main>
+<!-- ===== Hero ===== -->
+<header class="relative pt-24 pb-section-gap px-margin-mobile md:px-margin-desktop overflow-hidden">
+<div class="absolute top-0 right-0 w-1/2 h-full opacity-20 pointer-events-none illustration-pattern"></div>
+<div class="absolute -top-10 -left-10 w-64 h-64 border border-primary rounded-full opacity-10 pointer-events-none"></div>
+<div class="absolute bottom-20 right-10 w-40 h-40 border border-primary rounded-full opacity-10 pointer-events-none"></div>
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-gutter items-center">
+<div class="space-y-8 z-10 relative">
+<div class="inline-flex items-center space-x-2 text-primary">
+<span class="material-symbols-outlined text-lg">storefront</span>
+<span class="text-label-sm font-label-sm uppercase tracking-widest">İstanbul Suadiye · Çanakkale Gastroport</span>
+</div>
+<h1 class="text-headline-lg-mobile md:text-headline-display font-headline-display text-primary leading-tight">
+Bir ruh, <span class="italic font-light">iki mekan:</span><br/>Bon Suadiye
+</h1>
+<p class="text-body-lg font-body-lg text-on-surface-variant max-w-md">
+Rafine lezzetler, özenle seçilmiş kahveler ve sanat dolu bir atmosfer. İster İstanbul'un kalbinde Suadiye'de, ister Çanakkale'nin eşsiz manzarasına karşı Gastroport'ta — sizi sıcak bir mola için bekliyoruz.
+</p>
+<div class="pt-4 flex flex-col sm:flex-row gap-4">
+<a href="lokasyonlar.html" class="bg-primary text-on-primary px-8 py-4 rounded hover:bg-primary-container transition-colors text-label-sm font-label-sm uppercase tracking-widest text-center">Lokasyon Seç</a>
+<a href="rezervasyon.html" class="bg-transparent text-primary px-8 py-4 rounded hover:bg-surface-container transition-colors text-label-sm font-label-sm uppercase tracking-widest border border-primary text-center">Rezervasyon Yap</a>
+</div>
+</div>
+<div class="relative mt-16 lg:mt-0 z-10 flex justify-center lg:justify-end">
+<div class="relative w-full max-w-md aspect-[4/5] bg-surface-container-high rounded-xl overflow-hidden hand-drawn-border p-2">
+<div class="w-full h-full bg-cover bg-center bg-no-repeat rounded-lg opacity-90" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBsweNomDPMvNMYH88uL-sw0RVHpEQZZD8ArXOTEGnOf2zQokVZ0e9o1YsTQUidWFjmOvylfJVPsorr0M03v4ASCHPoPZuBuujnC6tVfXrNKKpuAoJCz7XN_tUeyjbKVj64WHLJVDPFW3KF7YagOqPL1pyjRSnwF_FAe0rFFpvf9nr9aX8bV-bRzT6RP-W0e33B4SfYQAk4fVYZk8p2MerahiKZ0fWJCnUx5KKiayDat5A_PntOLJusRJtAXWPRrrYTzsobciMePapZ')"></div>
+</div>
+<div class="absolute -bottom-10 -left-10 w-32 h-32 bg-surface-container-low rounded-full flex items-center justify-center hand-drawn-border shadow-sm transform -rotate-12">
+<span class="material-symbols-outlined text-primary text-4xl" style="font-variation-settings: 'FILL' 1;">bakery_dining</span>
+</div>
+<div class="absolute top-10 -right-5 w-24 h-24 bg-surface-container-low rounded-full flex items-center justify-center hand-drawn-border shadow-sm transform rotate-12">
+<span class="material-symbols-outlined text-primary text-3xl" style="font-variation-settings: 'FILL' 1;">local_cafe</span>
+</div>
+</div>
+</div>
+</header>
+
+<div class="w-full max-w-3xl mx-auto px-margin-mobile"><div class="hand-drawn-divider"></div></div>
+
+<!-- ===== Lokasyon Seçimi ===== -->
+<section class="max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop py-section-gap">
+<div class="text-center mb-12 space-y-4">
+<span class="text-label-sm font-label-sm text-outline uppercase tracking-widest">Mekanlarımız</span>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-primary">Hangi şehirde buluşalım?</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<!-- Suadiye -->
+<a href="menu-suadiye.html" class="group flex flex-col bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-500">
+<div class="relative h-60 md:h-72 overflow-hidden">
+<img src="https://bonsuadiye-api.foodapp.com.tr/media/29/conversions/bonburger_1000x1500-wide.jpg" alt="Suadiye lezzetleri" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent"></div>
+<span class="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-background/90 backdrop-blur text-primary text-label-sm uppercase tracking-wider"><span class="material-symbols-outlined text-[16px]">location_on</span> İstanbul</span>
+</div>
+<div class="p-8 md:p-10 flex flex-col flex-grow">
+<h3 class="text-headline-lg font-headline-lg text-primary mb-2">Suadiye</h3>
+<p class="text-body-md text-on-surface-variant mb-6">Şehrin ritminde, artisan lezzetler ve sıcak bir mola.</p>
+<ul class="space-y-3 mb-8 text-on-surface-variant text-body-md">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">local_cafe</span> Artisan Kahve Barı</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">bakery_dining</span> Günlük Fırın Lezzetleri</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">brunch_dining</span> Tüm Gün Kahvaltı</li>
+</ul>
+<span class="mt-auto inline-flex items-center justify-center gap-2 bg-primary text-on-primary px-6 py-3 rounded text-label-sm uppercase tracking-wider group-hover:bg-primary-container transition-colors">Suadiye Menüsünü İncele <span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span></span>
+</div>
+</a>
+<!-- Gastroport -->
+<a href="menu-gastroport.html" class="group flex flex-col bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-500">
+<div class="relative h-60 md:h-72 overflow-hidden">
+<img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/9b859225-3285-4da9-979a-860294d67702.jpg" alt="Gastroport lezzetleri" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent"></div>
+<span class="absolute top-4 left-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-background/90 backdrop-blur text-primary text-label-sm uppercase tracking-wider"><span class="material-symbols-outlined text-[16px]">location_on</span> Çanakkale</span>
+</div>
+<div class="p-8 md:p-10 flex flex-col flex-grow">
+<h3 class="text-headline-lg font-headline-lg text-primary mb-2">Gastroport</h3>
+<p class="text-body-md text-on-surface-variant mb-6">Boğaz manzarasına karşı seçkin bir bistro deneyimi.</p>
+<ul class="space-y-3 mb-8 text-on-surface-variant text-body-md">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">restaurant</span> Akşam Yemeği Menüsü</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">wine_bar</span> Özel Şarap Seçkisi</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary text-[20px]">water</span> Teras &amp; Deniz Manzarası</li>
+</ul>
+<span class="mt-auto inline-flex items-center justify-center gap-2 bg-primary text-on-primary px-6 py-3 rounded text-label-sm uppercase tracking-wider group-hover:bg-primary-container transition-colors">Gastroport Menüsünü İncele <span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span></span>
+</div>
+</a>
+</div>
+</section>
+
+<div class="flex justify-center py-4 text-primary">
+<svg height="20" viewBox="0 0 60 20" width="60"><path class="illustration-line" d="M0,10 Q15,0 30,10 T60,10"></path><circle cx="30" cy="10" fill="currentColor" r="3"></circle></svg>
+</div>
+
+<!-- ===== Hikayemiz ===== -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-low">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+<div class="md:col-span-5 relative order-2 md:order-1 mt-12 md:mt-0">
+<div class="aspect-square bg-surface-container-highest rounded-full overflow-hidden p-4 hand-drawn-border">
+<div class="w-full h-full bg-cover bg-center rounded-full opacity-80 mix-blend-multiply" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC_I1DPrJXauMiNrqkw1onSIWrR6Y3xzqq3U3tBpu71ELN0uFxko1_MTp3L3ft24Jjt9coUjzEoT8yOkpNf8cdTKaZgWxJn6srwnj4Hh8EL9wFsiMmcCt88H98aKFkdbu7kccDfggjlxsFyxJEnOYw0KMh-coozRADKaYVS_TdQIKxuUJG3Uf73gy17ZBWl1KM6g9EpeFU9c7K_o7N60Oxc6Zi7VC9piKsksA6g03QcAeD97Dwv1ssxs5MldgJusDTsSeHJrcYEh61v')"></div>
+</div>
+</div>
+<div class="md:col-span-6 md:col-start-7 space-y-6 order-1 md:order-2">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-primary">Rafine Bir Deneyim</h2>
+<p class="text-body-md text-on-surface-variant leading-relaxed">Bon Suadiye olarak, sadece bir kafe değil; sanatı, lezzeti ve samimiyeti bir araya getiren bir yaşam alanı sunuyoruz. Özenle hazırladığımız menümüzdeki her detay, size unutulmaz bir deneyim yaşatmak için tasarlandı.</p>
+<p class="text-body-md text-on-surface-variant leading-relaxed">Sabahın erken saatlerinde taze demlenmiş bir kahve kokusuyla güne başlamak veya akşamüstü sevdiklerinizle keyifli bir kadeh eşliğinde sohbet etmek için doğru yerdesiniz.</p>
+<div class="pt-2">
+<a class="inline-flex items-center text-primary hover:text-primary-container transition-colors font-label-sm text-label-sm uppercase tracking-widest border-b border-primary pb-1" href="hakkimizda.html">Hikayemizin Devamı <span class="material-symbols-outlined ml-2 text-sm">arrow_forward</span></a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ===== Öne Çıkanlar ===== -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16 space-y-4">
+<span class="text-label-sm font-label-sm text-outline uppercase tracking-widest">Öne Çıkanlar</span>
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-primary">Misafirlerimizi neler bekliyor?</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
+<div class="flex flex-col items-center text-center group">
+<div class="w-48 h-48 mb-6 relative transition-transform duration-500 group-hover:-translate-y-2">
+<div class="absolute inset-0 bg-surface-container-highest rounded-full opacity-50 transform scale-90 group-hover:scale-100 transition-transform duration-500"></div>
+<div class="relative z-10 w-full h-full bg-contain bg-center bg-no-repeat mix-blend-multiply opacity-80 group-hover:opacity-100 transition-opacity" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB1b_c2877gGyOHT2DW_F9pKbp0z-ZFdUcd90Jpyw0rI6xfSr_OZ2gFbZcXBcR6zw5emrNjRkiFQz_gXgEUOlbyssBP1iycukB_dwtxncRpzf2Pe0T_PIpk5lC5QE_jPZH2aZaqSMf_XDxP5-x_5XjYFjGz3Fie1ydPre7RDsQk5jXjOhiep0LvtO-b8XUoxUD0rT0UBo4gwSYTyrm80Pt0W20VF8hniH7kIWPvNpi4mVsc7TFI9q5bIYI1XvX7C7gDydsKE1RlW7wZ')"></div>
+</div>
+<h3 class="text-headline-md font-headline-md text-primary mb-2">Artizan Pankekler</h3>
+<p class="text-body-md text-on-surface-variant mb-4">Mevsim meyveleri ve özel ev yapımı şuruplarımızla hazırlanan, pazar kahvaltılarının vazgeçilmezi.</p>
+<span class="text-label-sm text-primary uppercase border border-primary/20 px-3 py-1 rounded-full">Tatlı</span>
+</div>
+<div class="flex flex-col items-center text-center group md:mt-12">
+<div class="w-48 h-48 mb-6 relative transition-transform duration-500 group-hover:-translate-y-2">
+<div class="absolute inset-0 bg-surface-container-highest rounded-full opacity-50 transform scale-90 group-hover:scale-100 transition-transform duration-500"></div>
+<div class="relative z-10 w-full h-full bg-contain bg-center bg-no-repeat mix-blend-multiply opacity-80 group-hover:opacity-100 transition-opacity" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCmuium_uTyGrYXamTSVKdqTamo6XGyD2fo6V1XII-X_EJLgeDOMFlNQaqEwIF5DknR-XIqw91wTyBEmHOD-6peLTO1xdF3PdGMcZ6VOrUXvNbWkKmeiSeo7UGF-_q7G4K3QzKYGKOOG0GCVFil8zqCl9xtBDEOHcArhFsHCpakfjpMJfdvABAVaHqpwgKNgo7eV6ZsLGl2kYNM56IR0zkdQ-eYLjP7-hbBRMhNnHeSumqqq5vMwZkJcq12IG9qX4XFdcdWZtJ8rBvv')"></div>
+</div>
+<h3 class="text-headline-md font-headline-md text-primary mb-2">Napoliten Pizza</h3>
+<p class="text-body-md text-on-surface-variant mb-4">Odun ateşinde pişen ince hamur, İtalyan domatesleri ve taze mozzarella ile otantik lezzet.</p>
+<span class="text-label-sm text-primary uppercase border border-primary/20 px-3 py-1 rounded-full">Ana Yemek</span>
+</div>
+<div class="flex flex-col items-center text-center group">
+<div class="w-48 h-48 mb-6 relative transition-transform duration-500 group-hover:-translate-y-2">
+<div class="absolute inset-0 bg-surface-container-highest rounded-full opacity-50 transform scale-90 group-hover:scale-100 transition-transform duration-500"></div>
+<div class="relative z-10 w-full h-full bg-contain bg-center bg-no-repeat mix-blend-multiply opacity-80 group-hover:opacity-100 transition-opacity" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAc4ArLDLRjFWixnhU6TJgxEeuJj-b-OVaUGhhPuLS_X0UjNGbGF0GVQBCsvDCLY4-1lmX-l45r0JPR5wHF13IV5keGjI22vbzddcJ4jErOHGZwewawGEjoHCOKQ7vrDWqJrnMM2PbfvyTuXGNt-OE8xPtOh0V5D95TMJbJPeKJ8Ne-9cIKhv6lnnlt9E9o3vjvoGcPnf5Xr5yVZw5xoV19-fImsgF1WmkP3ILzUlQ5BcNeAOje03nZfBTMcQ0aF4XMhz4e1t-T1fGT')"></div>
+</div>
+<h3 class="text-headline-md font-headline-md text-primary mb-2">Özel Harman Kahveler</h3>
+<p class="text-body-md text-on-surface-variant mb-4">Dünyanın en iyi çekirdeklerinden özenle seçilmiş, taze kavrulmuş imza kahve çeşitlerimiz.</p>
+<span class="text-label-sm text-primary uppercase border border-primary/20 px-3 py-1 rounded-full">İçecek</span>
+</div>
+</div>
+<div class="text-center mt-16">
+<a href="lokasyonlar.html" class="inline-block bg-transparent text-primary px-8 py-3 rounded hover:bg-surface-container transition-colors text-label-sm font-label-sm uppercase tracking-widest border border-primary">Tüm Menüyü Gör</a>
+</div>
+</div>
+</section>
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="bg-surface-container-low border-t border-outline-variant w-full py-12 px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter items-start max-w-7xl mx-auto">
+<div class="space-y-4">
+<div class="text-headline-md font-headline-md text-primary uppercase tracking-wider">Bon Suadiye</div>
+<p class="text-body-md text-on-surface-variant max-w-xs">İki şehir, bir lezzet ruhu. Rafine tatlar ve sanatsal bir atmosfer.</p>
+<div class="flex space-x-4 pt-2">
+<a class="text-primary hover:text-primary-container transition-colors" href="#" aria-label="Instagram"><span class="material-symbols-outlined">photo_camera</span></a>
+<a class="text-primary hover:text-primary-container transition-colors" href="#" aria-label="E-posta"><span class="material-symbols-outlined">alternate_email</span></a>
+</div>
+</div>
+<div class="space-y-4 md:col-start-2">
+<h4 class="text-label-sm font-label-sm text-outline uppercase tracking-widest">Hızlı Bağlantılar</h4>
+<ul class="space-y-2">
+<li><a class="text-body-md text-on-surface-variant hover:text-primary transition-colors" href="hakkimizda.html">Hakkımızda</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-primary transition-colors" href="lokasyonlar.html">Lokasyonlar</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-primary transition-colors" href="rezervasyon.html">Rezervasyon</a></li>
+</ul>
+</div>
+<div class="space-y-4 md:col-start-3">
+<h4 class="text-label-sm font-label-sm text-outline uppercase tracking-widest">İletişim</h4>
+<ul class="space-y-2">
+<li><a class="text-body-md text-on-surface-variant hover:text-primary transition-colors" href="iletisim.html">İletişim</a></li>
+<li><a class="text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Kullanım Şartları</a></li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-outline-variant/30 flex flex-col md:flex-row justify-between items-center text-label-sm text-on-surface-variant">
+<p>© <span data-year>2024</span> Bon Suadiye. Tüm hakları saklıdır.</p>
+<p class="mt-2 md:mt-0 opacity-70">Designed with rafine spirit.</p>
+</div>
+</footer>
+<script src="assets/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="tr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bon Suadiye — Gastroport Menü (Çanakkale)</title>
+<meta name="description" content="Bon Suadiye Çanakkale Gastroport şubesi menüsü: kahvaltı, başlangıçlar, pizza, ana yemekler, pastane, şaraplar ve içecekler. Güncel fiyatlar."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script src="assets/config.js"></script>
+<link rel="stylesheet" href="assets/styles.css"/>
+</head>
+<body class="bg-background text-on-surface antialiased min-h-screen flex flex-col font-body-md text-body-md">
+
+<header class="sticky top-0 z-50 border-b border-outline-variant bg-background/95 backdrop-blur">
+<nav class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-7xl mx-auto">
+<a class="text-headline-md font-headline-md text-primary tracking-wider uppercase" href="index.html">Bon Suadiye</a>
+<div class="hidden md:flex gap-gutter items-center">
+<a class="text-secondary hover:text-primary text-label-sm font-label-sm uppercase tracking-wider transition-colors" href="index.html">Ana Sayfa</a>
+<a class="text-secondary hover:text-primary text-label-sm font-label-sm uppercase tracking-wider transition-colors" href="hakkimizda.html">Hakkımızda</a>
+<a class="text-primary border-b-2 border-primary font-bold pb-1 text-label-sm font-label-sm uppercase tracking-wider" href="lokasyonlar.html">Lokasyonlar</a>
+<a class="text-secondary hover:text-primary text-label-sm font-label-sm uppercase tracking-wider transition-colors" href="iletisim.html">İletişim</a>
+</div>
+<a href="rezervasyon.html" class="bg-primary text-on-primary px-6 py-3 rounded hover:bg-primary-container transition-colors duration-300 text-label-sm font-label-sm uppercase tracking-wider hidden md:inline-block">Rezervasyon Yap</a>
+<button data-menu-toggle class="md:hidden text-primary p-2" aria-label="Menü"><span class="material-symbols-outlined">menu</span></button>
+</nav>
+<div data-mobile-menu class="mobile-menu md:hidden bg-background border-t border-outline-variant px-margin-mobile">
+<div class="flex flex-col py-4 gap-4">
+<a class="text-secondary text-label-sm uppercase tracking-wider" href="index.html">Ana Sayfa</a>
+<a class="text-secondary text-label-sm uppercase tracking-wider" href="hakkimizda.html">Hakkımızda</a>
+<a class="text-primary font-bold text-label-sm uppercase tracking-wider" href="lokasyonlar.html">Lokasyonlar</a>
+<a class="text-secondary text-label-sm uppercase tracking-wider" href="iletisim.html">İletişim</a>
+<a class="bg-primary text-on-primary px-6 py-3 rounded text-center text-label-sm uppercase tracking-wider" href="rezervasyon.html">Rezervasyon Yap</a>
+</div>
+</div>
+</header>
+
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop text-center">
+<div class="max-w-3xl mx-auto">
+<span class="text-label-sm font-label-sm text-secondary uppercase tracking-widest">Çanakkale · Gastroport Şubesi</span>
+<h1 class="font-headline-display text-headline-display text-primary mt-3 mb-6">Gastroport Menü</h1>
+<p class="font-body-lg text-body-lg text-secondary max-w-2xl mx-auto">Boğaz manzarasına karşı seçkin bir bistro deneyimi. Ege'nin taze tatları ve dünya mutfağından özenle seçilmiş lezzetler.</p>
+</div>
+</section>
+
+<main class="flex-grow w-full max-w-7xl mx-auto px-margin-mobile md:px-margin-desktop pb-section-gap">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<aside class="md:col-span-3 hidden md:block" data-menu-nav>
+<div class="sticky top-28 space-y-4 border-l border-outline-variant pl-4">
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold hover:text-primary transition-colors" href="#cat-7155">KAHVALTI</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-5324">SANDVİÇ</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-4634">BAŞLANGIÇLAR</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-4638">SALATA</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-4635">BON MUTFAK</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-4637">PİZZA</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-4636">ANA YEMEK</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-4639">BON PASTANE</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-4641">ÇAY</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-4642">KAHVE</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-4640">SOFT İÇECEK</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-4643">BİRA</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-5347">KIRMIZI ŞARAPLAR</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-7116">ROSE/BLUSH ŞARAPLAR</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-7117">BEYAZ ŞARAPLAR</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-7118">KADEH ŞARAPLAR</a>
+<a class="block font-label-sm text-label-sm uppercase tracking-wider text-secondary hover:text-primary transition-colors" href="#cat-7128">EKSTRALAR</a>
+
+</div>
+</aside>
+<div class="md:col-span-9 space-y-section-gap">
+<section class="scroll-mt-28" id="cat-7155">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">KAHVALTI</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">sunny</span></div>
+<ul class=" grid grid-cols-1 sm:grid-cols-2 gap-x-gutter gap-y-3">
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">KAHVALTI TABAĞI</span><span class="text-primary whitespace-nowrap">₺700</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">SICAK KAHVALTI TABAĞI</span><span class="text-primary whitespace-nowrap">₺700</span></li>
+</ul>
+</section>
+
+<section class="scroll-mt-28" id="cat-5324">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">SANDVİÇ</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">lunch_dining</span></div>
+<ul class=" grid grid-cols-1 sm:grid-cols-2 gap-x-gutter gap-y-3">
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">PEYNİR SANDVİÇ</span><span class="text-primary whitespace-nowrap">₺400</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">HİNDİ FÜME SANDVİÇ</span><span class="text-primary whitespace-nowrap">₺400</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">SEZAR SANDVİÇ</span><span class="text-primary whitespace-nowrap">₺400</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">ÇITIR TAVUK SANDVİÇ</span><span class="text-primary whitespace-nowrap">₺400</span></li>
+</ul>
+</section>
+
+<section class="scroll-mt-28" id="cat-4634">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">BAŞLANGIÇLAR</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">tapas</span></div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/c24557c4-1c1f-4079-add2-7b319b2f5eac.jpg" alt="GÜNÜN ÇORBASI" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">GÜNÜN ÇORBASI</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺220</span></div>
+
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/c98ce328-09f9-4ccf-9010-8f5348f3edae.jpg" alt="SADE PATATES KIZARTMASI" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">SADE PATATES KIZARTMASI</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺220</span></div>
+
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/a5004a1b-79f9-4604-9333-635fffd693a3.jpg" alt="CAJUN PATATES KIZARTMASI" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">CAJUN PATATES KIZARTMASI</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺260</span></div>
+
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/93d615f7-3026-460c-b9c0-e86aace59818.jpg" alt="BON FRIES" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">BON FRIES</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺450</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">patates kızartması, cheddar, taze baharatlar, hafif acılı mayonez</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/9ea55bd6-1b29-422b-aa9c-b0f3238e17e5.jpg" alt="KIZARMIŞ PEYNİR TOPLARI" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">KIZARMIŞ PEYNİR TOPLARI</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺460</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">taze peynir, trüf yağı, taze baharatlar, acılı turunç sos</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/867c9221-b6e9-4fcd-9799-60b802a11e3e.jpg" alt="ÇITIR MAC &amp;CHEESE TOPLARI" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">ÇITIR MAC &amp;CHEESE TOPLARI</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺450</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">çıtır kaplamalı mac&amp;cheese topları</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/b9d9984b-c405-45e2-803c-b05b515667fc.jpg" alt="ÇITIR TAVUK" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">ÇITIR TAVUK</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺460</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">tatlı-acı sos ile</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/ca53376c-4eec-410f-ada8-c1a550b1bc24.jpg" alt="ÇITIR TAVUK KANATLARI" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">ÇITIR TAVUK KANATLARI</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺500</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">çıtır kaplamalı tavuk kanatları, ponzu sos ve acı bon sos ile servis edilir.</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/0721ba9b-138f-4d54-aa98-23fc1a96c0b9.jpg" alt="ÇITIR TEPSİ MANTI" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">ÇITIR TEPSİ MANTI</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺500</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">taze baharatlı yoğurt ve domates sos ile servis edilir.</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/b5ccb09a-f7e6-4311-8fcd-f0a900b595c3.jpg" alt="BONION" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">BONION</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺250</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">çıtır soğan halkaları, acılı turunç sos ve acı bon sos ile servis edilir.</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/43480481-61fc-41f9-9761-dc10b7fa04fa.jpg" alt="SARIMSAKLI PİZZA EKMEĞİ" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">SARIMSAKLI PİZZA EKMEĞİ</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺210</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">maydonoz, mozarella ve parmesan peyniri</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/9458134b-3ead-4ce6-a7b5-d33b1f7824f3.jpg" alt="PATATES SALATASI" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">PATATES SALATASI</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺360</span></div>
+
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/bd13d3ae-cb3b-435e-915e-f03a1b6ce1df.jpg" alt="TRUFF PARMESANLI PATATES KIZARTMASI" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">TRUFF PARMESANLI PATATES KIZARTMASI</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺360</span></div>
+
+</div>
+</div>
+</div>
+<ul class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-x-gutter gap-y-3">
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">GÜNÜN ÇORBASI YARIM</span><span class="text-primary whitespace-nowrap">₺140</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">SADE PK YARIM</span><span class="text-primary whitespace-nowrap">₺140</span></li>
+</ul>
+</section>
+
+<section class="scroll-mt-28" id="cat-4638">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">SALATA</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">eco</span></div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/00fe63bf-108e-4168-abba-f7313806ebc7.jpg" alt="KEÇİ PANCAR SALATA" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">KEÇİ PANCAR SALATA</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺720</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">keçi peyniri, fırınlanmış pancar, roka , marul, file badem, hardal sos</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/7a2d6db7-bce7-4ab8-9f51-62144b1a5395.jpeg" alt="IZGARA TAVUK SALATA" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">IZGARA TAVUK SALATA</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺750</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">ızgara tavuk, cherry domates, salatalık, kırmızı soğan,mısır roka, marul</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/7e345ea1-0e8e-48cd-9b1a-705fbb3c14a3.jpg" alt="SEZAR SALATA" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">SEZAR SALATA</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺800</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">ızgara tavuk, marul, kruton, sezar sos, parmesan, taze baharatlar</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/94e412cd-b7fb-490a-a389-cb346232c677.jpg" alt="ANRİCOTTO SALATA" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">ANRİCOTTO SALATA</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺950</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">dana füme antrikot, roka, göbek marul, cherry domates, salatalık, ceviz, çıtır soğan, kekikli balsamic sos</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/12971c9e-9303-48fc-b7e3-3eb157f49e1a.jpg" alt="BARIŞ SALATA" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">BARIŞ SALATA</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺900</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">ızgara dana köfte, roka, göbek marul, cherry domates, salatalık, közlenmiş biber, közlenmiş domates</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/0e50b211-3f52-4e1f-b68f-4105a26b457a.jpg" alt="ÇITIR TAVUK SALATA" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">ÇITIR TAVUK SALATA</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺760</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">göbek marul, domates, mısır, kırmızı soğan, turşu, çıtır tavuk, acılı mayonez</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/363d2110-86dd-40ad-b2d0-f379649d734d.jpeg" alt="HUMUSLU TAHIL SALATASI" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">HUMUSLU TAHIL SALATASI</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺840</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">akdeniz yeşillikleri, buğday, yeşil mercimek, nohut, maş fasulyesi, mısır, renkli biberler, salatalık, kırmızı soğan, baharatlı limon sosu</p>
+</div>
+</div>
+</div>
+<ul class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-x-gutter gap-y-3">
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">HUMUSLU TAHIL SALATASI KÖFTELİ</span><span class="text-primary whitespace-nowrap">₺1050</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">HUMUSLU TAHIL SALATASI TAVUKLU</span><span class="text-primary whitespace-nowrap">₺950</span></li>
+</ul>
+</section>
+
+<section class="scroll-mt-28" id="cat-4635">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">BON MUTFAK</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">lunch_dining</span></div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/3173cbd4-1768-4dc3-afff-839c0986466a.jpg" alt="TRÜFF BURGER" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">TRÜFF BURGER</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺600</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">140 gr. burger köftesi, cheddar, karamelize soğan, salatalık relish, trüflü mayonez</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/61b42e76-ab07-4b00-a369-00b4906647c8.jpg" alt="BON BURGER" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">BON BURGER</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺600</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">140 gr. burger köftesi, cheddar, karamelize soğan, dana cotto, bon sos</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/5550913f-bc90-4c04-b9e9-ed114782f474.jpg" alt="AMG BURGER" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">AMG BURGER</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺600</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">140 gr. burger köftesi, cheddar, turşu, kırmızı soğan, domates, marul, ketçap, hardal</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/9b511916-b25c-4728-b755-234468f978d5.jpg" alt="CHEESE BURGER" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">CHEESE BURGER</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺520</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">140 gr. burger köftesi, cheddar</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/86a01855-3206-4807-b536-0b1eb8de4a6a.jpg" alt="ECE BURGER" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">ECE BURGER</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺650</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">120 gr. çıtır tavuk göğüs, cheddar, turşu, kırmızı soğan, göbek marul, trüflü mayonez veya acılı mayonez</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/1202ebd7-1720-4634-adbd-6ab856b88288.jpg" alt="EMRE BURGER" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">EMRE BURGER</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺650</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">140 gr. burger köftesi, cheddar, karamelize soğan, dana cotto, bon sos, trüflü mayonez</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/a50f9d3a-921a-4c33-bb4a-ed0c946bed81.jpg" alt="VEGABON BURGER" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">VEGABON BURGER</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺600</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">falafel, domates, avokado, kırmızı soğan, göbek marul, turşu, tatlı-acı sos</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/0125f677-a1ea-4065-8920-4d1bf669b80e.jpg" alt="KÖFTE WRAP" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">KÖFTE WRAP</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺750</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">140 gr. dana kıyma, tatlı-acı sos, cheddar, kimyon, domates, marul, turşu, kırmızı soğan, acı mayonez</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/dc1874c5-9a42-4d72-97e3-c9abc0189ec5.jpg" alt="TAVUK WRAP" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">TAVUK WRAP</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺750</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">150 gr. ızgara tavuk, tatlı-acı sos, cheddar, domates, marul, turşu, kıtır soğan, acı mayonez</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/3d23f9b3-6c96-4683-9358-dea5aea94175.jpg" alt="ÇITIR TAVUKLU WRAP" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">ÇITIR TAVUKLU WRAP</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺750</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">150 gr. çıtır tavuk göğüs, tatlı-acı sos, cheddar, domates, marul, turşu, kıtır soğan, acı mayonez</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/554530ec-4eaa-4868-9337-53eb91492276.jpg" alt="FALAFEL WRAP" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">FALAFEL WRAP</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺750</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">falafel, tatlı-acı sos, domates, marul, turşu, kırmızı soğan, acı mayonez</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/e1404e0a-e3d3-478a-8733-e11eb66af416.jpg" alt="HOT DOG" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">HOT DOG</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺650</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">dana sosis, salatalık relish, cheddar, ketçap, hardal, taze baharatlar, bon sos</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="scroll-mt-28" id="cat-4637">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">PİZZA</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">local_pizza</span></div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/631732f7-7498-4440-b21d-1c7e818e8920.jpg" alt="PİZZA BBQ TAVUK" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">PİZZA BBQ TAVUK</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺900</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">domates sos, mozarella, tavuk göğüs, çarliston biber, kırmızı soğan, BBQ sos</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/6e207ed8-f2a8-4eea-b9dc-18830b4d5b8e.jpeg" alt="PİZZA SOSİSLİ" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">PİZZA SOSİSLİ</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺900</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">domates sos, mozarella, füme dana sosis, kırmızı soğan, kültür mantarı</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/9b859225-3285-4da9-979a-860294d67702.jpg" alt="PİZZA MARGARİTA" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">PİZZA MARGARİTA</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺720</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">domates sos, mozarella,</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/f4514c5a-6aab-417e-91cc-0c0e49e83b3f.jpg" alt="PİZZA ANTRİCOTTO" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">PİZZA ANTRİCOTTO</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺980</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">domates sos, mozarella, dana cotto, roka</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/d0b45047-eae6-4ac7-8762-5288d4ad9603.jpg" alt="PİZZA BON" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">PİZZA BON</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺980</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">domates sos, mozarella, pastırma, roka</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/9fff5669-8fd6-4410-b21d-14d0b740c082.jpg" alt="PİZZA KAVURMA" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">PİZZA KAVURMA</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺940</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">dana kavurma, mozarella, köy biberi,krema</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/f4ba962a-6b4f-4bdc-b372-388dbef19e96.jpg" alt="PİZZA FUNGHI" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">PİZZA FUNGHI</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺900</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">domates sos, mozarella, kültür mantarı, istiridye mantarı, trüf yağ</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/80911353-2cd1-4f97-86a1-06af5356b042.jpg" alt="PİZZA PEPPERONİ" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">PİZZA PEPPERONİ</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺940</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">domates sos, mozarella, pepperoni, çarliston biber, kırmızı soğan</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="scroll-mt-28" id="cat-4636">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">ANA YEMEK</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">restaurant</span></div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/7dbbb04a-fc1e-4963-b6c1-b5009ab2609c.jpg" alt="IZGARA KÖFTE" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">IZGARA KÖFTE</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺900</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">180 gr. ızgara köfte, patates salatası, ekmek</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/e01f593d-a61d-4148-9d22-cc9c77ec6584.jpg" alt="TAVUK ŞNİTZEL" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">TAVUK ŞNİTZEL</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺900</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">patates salatası, roka salatası, taze baharatlı yağ, limon</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/83c7400e-2969-4ee8-95be-97366775cf57.jpg" alt="CAFE DE PARIS SOSLU TAVUK" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">CAFE DE PARIS SOSLU TAVUK</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺900</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">parmesanlı patates ile</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/ff276dab-d680-41b0-829f-dc087dedab34.jpg" alt="IZGARA TAVUK GÖĞÜS" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">IZGARA TAVUK GÖĞÜS</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺840</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">ızgara tavuk, patates salatası, ekmek</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/fb7e57c7-65b8-449a-a2f2-fae8c86674a1.jpg" alt="LAZANYA" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">LAZANYA</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺750</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">bolonez, beşamel sos, domates sos, mozarella, taze fesleğen</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/0bf8bae7-0349-4c58-b725-cc7a86e40dca.jpg" alt="IZGARA SOSİS" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">IZGARA SOSİS</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺960</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">2 adet 90 gr. ızgara sosis, Çubuk Turşusu, patates salatası, ekmek</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/0420432b-542a-49c6-9fec-f087ea02ebc5.jpg" alt="PENNE ARABIATA" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">PENNE ARABIATA</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺700</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">acılı / acısız, fesleğen ve toz parmesan</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/29f9c237-896f-4d28-b382-2436b62010eb.jpg" alt="FETTUCINE ALFREDO" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">FETTUCINE ALFREDO</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺800</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">mantar, tavuk, krema sos, fesleğen, toz parmesan</p>
+</div>
+</div>
+</div>
+<ul class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-x-gutter gap-y-3">
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">IZGARA KÖFTE PATATES KIZARTMASI</span><span class="text-primary whitespace-nowrap">₺900</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">TAVUK ŞNİTZEL PATATES KIZARTMALI</span><span class="text-primary whitespace-nowrap">₺900</span></li>
+</ul>
+</section>
+
+<section class="scroll-mt-28" id="cat-4639">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">BON PASTANE</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">cake</span></div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/06e6bbdb-d4ae-40ba-865d-ad1539bfa5f7.jpg" alt="PROFITEROL" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">PROFITEROL</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺440</span></div>
+
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/5d703eeb-271d-4efb-bfce-73a137e08953.jpg" alt="DONDURMALI PROFITEROL" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">DONDURMALI PROFITEROL</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺540</span></div>
+
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/b4f938fb-35c9-4b24-b9a1-8a4c1fd9698f.jpg" alt="ISABELLE" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">ISABELLE</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺540</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">vanilyalı dondurma, çikolatalı kurabiye, çilek, çikolata sos, file badem, karamel sos</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/06f75d42-d359-480b-9597-571a68898ab5.jpg" alt="CREME BRULEE" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">CREME BRULEE</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺440</span></div>
+
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/c2371649-d791-4fc0-b710-766be6f5cb70.jpg" alt="BROWNI" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">BROWNI</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺360</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">beyaz çikolata, vişne</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/404b86a7-f083-4058-aca8-c801c36ec16f.jpg" alt="ÇİKOLATALI SUFFLE" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">ÇİKOLATALI SUFFLE</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺450</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">vanilyalı dondurma ile servis edilir.</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/f550c7e8-b44f-4773-9de1-1a9953e9e3cc.jpg" alt="TİRAMİSU" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">TİRAMİSU</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺450</span></div>
+
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/a14b379d-6914-4517-932b-6107ff98a425.jpg" alt="KREP" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">KREP</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺550</span></div>
+<p class="text-secondary text-sm mt-1 leading-snug">sütlü çikolata, muz, çilek, file badem</p>
+</div>
+</div>
+<div class="group bg-surface-container-lowest border border-outline-variant rounded-lg overflow-hidden flex flex-col">
+<div class="aspect-[4/3] overflow-hidden bg-surface-container-high"><img src="https://files.cdn.elektraweb.com/bdcac343/36056/images/1e336e04-f570-41b4-b585-888b38ac67bd.jpg" alt="ÇİKOLATALI CHIP COOKIE" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/></div>
+<div class="p-4 flex flex-col flex-grow">
+<div class="flex justify-between items-start gap-3"><h3 class="font-headline-md text-headline-md leading-tight text-on-surface">ÇİKOLATALI CHIP COOKIE</h3><span class="font-body-lg text-body-lg text-primary whitespace-nowrap">₺220</span></div>
+
+</div>
+</div>
+</div>
+</section>
+
+<section class="scroll-mt-28" id="cat-4641">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">ÇAY</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">emoji_food_beverage</span></div>
+<ul class=" grid grid-cols-1 sm:grid-cols-2 gap-x-gutter gap-y-3">
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">DEMLEME ÇAY</span><span class="text-primary whitespace-nowrap">₺90</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">FİNCAN ÇAY</span><span class="text-primary whitespace-nowrap">₺120</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">NANE - LİMON ÇAYI</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">KIŞ ÇAYI</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">YEŞİL ÇAY</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">YASEMİNLİ YEŞİL ÇAY</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">KUŞBURNU</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">ELMA TARÇIN ÇAYI</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">ADA ÇAYI</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">IHLAMUR</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">ORMAN MEYVELİ ÇAY</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">MELİSA ÇAYI</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">REZENE ÇAYI</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+</ul>
+</section>
+
+<section class="scroll-mt-28" id="cat-4642">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">KAHVE</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">coffee</span></div>
+<ul class=" grid grid-cols-1 sm:grid-cols-2 gap-x-gutter gap-y-3">
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">ESPRESSO</span><span class="text-primary whitespace-nowrap">₺150</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">ESPRESSO DOUBLE</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">AMERİCANO</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">CAPPUCİNO</span><span class="text-primary whitespace-nowrap">₺220</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">CAFFE LATTE</span><span class="text-primary whitespace-nowrap">₺220</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">FLAT WHITE</span><span class="text-primary whitespace-nowrap">₺240</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">FİLTRE KAHVE</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">CAFFE MOCHA</span><span class="text-primary whitespace-nowrap">₺240</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">CARAMEL LATTE</span><span class="text-primary whitespace-nowrap">₺250</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">TÜRK KAHVESİ</span><span class="text-primary whitespace-nowrap">₺140</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">TÜRK KAHVESİ DOUBLE</span><span class="text-primary whitespace-nowrap">₺220</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">ICE AMERİCANO</span><span class="text-primary whitespace-nowrap">₺240</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">ICE LATTE</span><span class="text-primary whitespace-nowrap">₺250</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">İCE MOCHA</span><span class="text-primary whitespace-nowrap">₺250</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">İCE CARAMEL LATTE</span><span class="text-primary whitespace-nowrap">₺250</span></li>
+</ul>
+</section>
+
+<section class="scroll-mt-28" id="cat-4640">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">SOFT İÇECEK</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">local_bar</span></div>
+<ul class=" grid grid-cols-1 sm:grid-cols-2 gap-x-gutter gap-y-3">
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">SU</span><span class="text-primary whitespace-nowrap">₺80</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">BÜYÜK SU</span><span class="text-primary whitespace-nowrap">₺140</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">CHURCHILL</span><span class="text-primary whitespace-nowrap">₺160</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">SODA</span><span class="text-primary whitespace-nowrap">₺100</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">COCA-COLA</span><span class="text-primary whitespace-nowrap">₺120</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">COCA-COLA LİGHT</span><span class="text-primary whitespace-nowrap">₺120</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">COCA-COLA ZERO SUGAR</span><span class="text-primary whitespace-nowrap">₺120</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">FANTA</span><span class="text-primary whitespace-nowrap">₺120</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">SPRITE</span><span class="text-primary whitespace-nowrap">₺120</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">AYRAN</span><span class="text-primary whitespace-nowrap">₺120</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">FESLEĞENLİ AYRAN</span><span class="text-primary whitespace-nowrap">₺220</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">NANELİ AYRAN</span><span class="text-primary whitespace-nowrap">₺220</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">EL YAPIMI LİMONATA</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">NANELİ LİMONATA</span><span class="text-primary whitespace-nowrap">₺220</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">ÇİLEKLİ LİMONATA</span><span class="text-primary whitespace-nowrap">₺240</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">REYHAN ŞERBETİ</span><span class="text-primary whitespace-nowrap">₺240</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">MİLKSHAKE ÇİKOLATA</span><span class="text-primary whitespace-nowrap">₺250</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">MİLKSHAKE VANİLYA</span><span class="text-primary whitespace-nowrap">₺250</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">MİLKSHAKE ÇİLEKLİ</span><span class="text-primary whitespace-nowrap">₺250</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">PORTAKAL SUYU</span><span class="text-primary whitespace-nowrap">₺300</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">FUSE TEA ŞEFTALİ</span><span class="text-primary whitespace-nowrap">₺120</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">FUSE TEA LİMON</span><span class="text-primary whitespace-nowrap">₺120</span></li>
+</ul>
+</section>
+
+<section class="scroll-mt-28" id="cat-4643">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">BİRA</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">sports_bar</span></div>
+<ul class=" grid grid-cols-1 sm:grid-cols-2 gap-x-gutter gap-y-3">
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">EFES PİLSEN 50CL</span><span class="text-primary whitespace-nowrap">₺290</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">EFES MALT 50CL</span><span class="text-primary whitespace-nowrap">₺290</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">EFES PİLSEN GREEN 50CL</span><span class="text-primary whitespace-nowrap">₺290</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">EFES GLUTENSİZ 50CL</span><span class="text-primary whitespace-nowrap">₺300</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">BOMONTİ FİLTRESİZ 50CL</span><span class="text-primary whitespace-nowrap">₺290</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">MILLER 33CL</span><span class="text-primary whitespace-nowrap">₺300</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">STELLA ARTOIS 44CL</span><span class="text-primary whitespace-nowrap">₺320</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">BECKS 50CL</span><span class="text-primary whitespace-nowrap">₺290</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">CORONA 33CL</span><span class="text-primary whitespace-nowrap">₺300</span></li>
+</ul>
+</section>
+
+<section class="scroll-mt-28" id="cat-5347">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">KIRMIZI ŞARAPLAR</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">wine_bar</span></div>
+<ul class=" grid grid-cols-1 sm:grid-cols-2 gap-x-gutter gap-y-3">
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Karasakız 2022</span><span class="text-primary whitespace-nowrap">₺1650</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Merlot Barrel Aged 2021</span><span class="text-primary whitespace-nowrap">₺3150</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Kabatepe Kırmızı 37.5 cl 2021</span><span class="text-primary whitespace-nowrap">₺900</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Sur 2020</span><span class="text-primary whitespace-nowrap">₺3700</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Sır 2020</span><span class="text-primary whitespace-nowrap">₺4015</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Kirte 2020</span><span class="text-primary whitespace-nowrap">₺3400</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Porta Diverti Kırmızı 2023</span><span class="text-primary whitespace-nowrap">₺1600</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Ament Blend 2022</span><span class="text-primary whitespace-nowrap">₺4800</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Etruscan ASHK 2018</span><span class="text-primary whitespace-nowrap">₺3100</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Etruscan Gradıva 2019</span><span class="text-primary whitespace-nowrap">₺1300</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Etruscan XHAI 2018 Reserva</span><span class="text-primary whitespace-nowrap">₺4100</span></li>
+</ul>
+</section>
+
+<section class="scroll-mt-28" id="cat-7116">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">ROSE/BLUSH ŞARAPLAR</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">wine_bar</span></div>
+<ul class=" grid grid-cols-1 sm:grid-cols-2 gap-x-gutter gap-y-3">
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Blush Karasakız 2022</span><span class="text-primary whitespace-nowrap">₺2100</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Clairet 2022</span><span class="text-primary whitespace-nowrap">₺1850</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Kabatepe Blush 37,5 cl 2022</span><span class="text-primary whitespace-nowrap">₺900</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Felici Rose 2022</span><span class="text-primary whitespace-nowrap">₺3100</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Felici Rose Barrel Aged 2024</span><span class="text-primary whitespace-nowrap">₺3950</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Porta Diverti Rose 2023</span><span class="text-primary whitespace-nowrap">₺1850</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Etruscan Daydream 2021 Rose</span><span class="text-primary whitespace-nowrap">₺1250</span></li>
+</ul>
+</section>
+
+<section class="scroll-mt-28" id="cat-7117">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">BEYAZ ŞARAPLAR</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">wine_bar</span></div>
+<ul class=" grid grid-cols-1 sm:grid-cols-2 gap-x-gutter gap-y-3">
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Kınalı Yapıncak 2022</span><span class="text-primary whitespace-nowrap">₺1850</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Misket Narince 2022</span><span class="text-primary whitespace-nowrap">₺1900</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Kabatepe Beyaz 37,5 cl 2022</span><span class="text-primary whitespace-nowrap">₺900</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Pacem 2022</span><span class="text-primary whitespace-nowrap">₺3500</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Porta Diverti Blend 2025</span><span class="text-primary whitespace-nowrap">₺1950</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Pacem Barrel Aged 2024</span><span class="text-primary whitespace-nowrap">₺4100</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Etruscan INO 2022</span><span class="text-primary whitespace-nowrap">₺1850</span></li>
+</ul>
+</section>
+
+<section class="scroll-mt-28" id="cat-7118">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">KADEH ŞARAPLAR</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">wine_bar</span></div>
+<ul class=" grid grid-cols-1 sm:grid-cols-2 gap-x-gutter gap-y-3">
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Karasakız</span><span class="text-primary whitespace-nowrap">₺400</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Kabatepe Kırmızı</span><span class="text-primary whitespace-nowrap">₺400</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Kirte</span><span class="text-primary whitespace-nowrap">₺750</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Porta Diverti Kırmızı</span><span class="text-primary whitespace-nowrap">₺400</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Etruscan Gradiva</span><span class="text-primary whitespace-nowrap">₺400</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Blush Karasakız</span><span class="text-primary whitespace-nowrap">₺450</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Clairet</span><span class="text-primary whitespace-nowrap">₺450</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Kabatepe Blush</span><span class="text-primary whitespace-nowrap">₺400</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Porta Diverti Rose</span><span class="text-primary whitespace-nowrap">₺400</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Etruscan Daydream</span><span class="text-primary whitespace-nowrap">₺350</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Kınalı Yapıncak</span><span class="text-primary whitespace-nowrap">₺400</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Misket Narince</span><span class="text-primary whitespace-nowrap">₺400</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Suvla Kabatepe Beyaz</span><span class="text-primary whitespace-nowrap">₺400</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Porta Diverti Beyaz</span><span class="text-primary whitespace-nowrap">₺400</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">Etruscan INO</span><span class="text-primary whitespace-nowrap">₺400</span></li>
+</ul>
+</section>
+
+<section class="scroll-mt-28" id="cat-7128">
+<div class="flex items-center gap-4 mb-8"><h2 class="font-headline-lg text-headline-lg text-primary">EKSTRALAR</h2><div class="flex-grow border-t border-outline-variant"></div><span class="material-symbols-outlined text-primary opacity-50">add_circle</span></div>
+<ul class=" grid grid-cols-1 sm:grid-cols-2 gap-x-gutter gap-y-3">
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">TAZE KEÇİ PEYNİRİ</span><span class="text-primary whitespace-nowrap">₺150</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">BURGER KÖFTE 70 GR</span><span class="text-primary whitespace-nowrap">₺200</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">IZGARA TAVUK 120 GR</span><span class="text-primary whitespace-nowrap">₺165</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">TATLI ACI SOS</span><span class="text-primary whitespace-nowrap">₺150</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">TRÜFLÜ MAYONEZ</span><span class="text-primary whitespace-nowrap">₺180</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">CHEDDAR SOS</span><span class="text-primary whitespace-nowrap">₺130</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">PARMESAN</span><span class="text-primary whitespace-nowrap">₺90</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">TRÜF YAĞ</span><span class="text-primary whitespace-nowrap">₺125</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">ACI SOS</span><span class="text-primary whitespace-nowrap">₺130</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">BBQ SOS</span><span class="text-primary whitespace-nowrap">₺70</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">ÇİKOLATA SOS</span><span class="text-primary whitespace-nowrap">₺120</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">IZGARA SOSİS 90 GR</span><span class="text-primary whitespace-nowrap">₺350</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">ACILI TURUNÇ SOS</span><span class="text-primary whitespace-nowrap">₺150</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">BON SOS</span><span class="text-primary whitespace-nowrap">₺150</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">ACILI MAYONEZ</span><span class="text-primary whitespace-nowrap">₺150</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">CHEDDAR PEYNİRİ</span><span class="text-primary whitespace-nowrap">₺90</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">SOYA SOS</span><span class="text-primary whitespace-nowrap">₺130</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">YOĞURT SOS</span><span class="text-primary whitespace-nowrap">₺110</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">HARDAL</span><span class="text-primary whitespace-nowrap">₺70</span></li>
+<li class="flex justify-between items-baseline gap-3 border-b border-dashed border-outline-variant/40 pb-2"><span class="text-on-surface">DONDURMA</span><span class="text-primary whitespace-nowrap">₺90</span></li>
+</ul>
+</section>
+</div>
+</div>
+
+<div class="mt-section-gap pt-16 border-t border-outline-variant">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center bg-surface-container-low p-8 rounded-lg">
+<div>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Gastroport İletişim</h3>
+<div class="space-y-3">
+<p class="flex items-start gap-3"><span class="material-symbols-outlined text-secondary text-sm mt-1">location_on</span><span class="text-secondary">Çanakkale <span class="opacity-60">(tam adres güncellenecek)</span></span></p>
+<p class="flex items-center gap-3"><span class="material-symbols-outlined text-secondary text-sm">schedule</span><span class="text-secondary">Çalışma saatleri için bizi arayın</span></p>
+</div>
+<a href="rezervasyon.html" class="inline-block mt-6 bg-primary text-on-primary px-6 py-3 rounded hover:bg-primary-container transition-colors text-label-sm uppercase tracking-wider">Rezervasyon Yap</a>
+</div>
+<div class="h-72 rounded-lg overflow-hidden border border-outline-variant">
+<iframe title="Çanakkale harita" class="w-full h-full" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=%C3%87anakkale%20Kordon%20Boyu&output=embed"></iframe>
+</div>
+</div>
+</div>
+</main>
+
+<footer class="bg-surface-container-low border-t border-outline-variant w-full py-12 px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter items-start max-w-7xl mx-auto">
+<div><span class="text-headline-md font-headline-md text-primary block mb-4">Bon Suadiye</span><p class="text-body-md text-on-surface-variant mb-4">Boğaz manzarasına karşı seçkin lezzetler.</p></div>
+<div class="flex flex-col space-y-2">
+<a class="text-label-sm text-on-surface-variant hover:text-primary transition-colors uppercase" href="hakkimizda.html">Hakkımızda</a>
+<a class="text-label-sm text-primary font-bold uppercase" href="lokasyonlar.html">Menü</a>
+<a class="text-label-sm text-on-surface-variant hover:text-primary transition-colors uppercase" href="rezervasyon.html">Rezervasyon</a>
+<a class="text-label-sm text-on-surface-variant hover:text-primary transition-colors uppercase" href="iletisim.html">İletişim</a>
+</div>
+<div class="md:text-right"><p class="text-body-md text-on-surface-variant">© <span data-year>2024</span> Bon Suadiye. Tüm hakları saklıdır.</p></div>
+</div>
+</footer>
+<script src="assets/main.js"></script>
+</body>
+</html>
